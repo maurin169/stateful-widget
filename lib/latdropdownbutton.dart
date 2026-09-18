@@ -14,8 +14,8 @@ class _LatdropdownbuttonState extends State<Latdropdownbutton> {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Center(
+    return Scaffold(
+      body: Center(
         child: DropdownMenu<String>(
           initialSelection: list.first,
           onSelected: (String? value) {

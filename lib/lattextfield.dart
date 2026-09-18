@@ -10,8 +10,8 @@ class Lattextfield extends StatefulWidget {
 class _LattextfieldState extends State<Lattextfield> {
   @override
   Widget build(BuildContext context) {
-    return const Material(
-      child: Padding(
+    return const Scaffold(
+      body: Padding(
         padding: EdgeInsetsGeometry.fromLTRB(100, 0, 100, 0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
